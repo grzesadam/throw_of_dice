@@ -46,10 +46,13 @@ def throw_dice(no_of_dice: int = 1, no_of_walls: int = 6, modifier: int = 0):
 for i in range(0,100):
     print(throw_dice(*decipher_code("15D20")))
 
-# print(decipher_code('5D20'))
-# print(decipher_code('5D13'))
-# print(decipher_code('5D2D0'))
-# print(decipher_code('5D12-8'))
-# print(decipher_code('5D100-13'))
-# print(decipher_code('5D100-1-3'))
-# print(decipher_code())
+
+if __name__ == '__main__':
+    pass
+    # print(decipher_code('5D20'))
+    # print(decipher_code('5D13'))
+    # print(decipher_code('5D2D0'))
+    # print(decipher_code('5D12-8'))
+    # print(decipher_code('5D100-13'))
+    # print(decipher_code('5D100-1-3'))
+    # print(decipher_code())
